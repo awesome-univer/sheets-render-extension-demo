@@ -823,8 +823,8 @@ packages:
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
     dev: true
 
-  /@types/node@20.11.26:
-    resolution: {integrity: sha512-YwOMmyhNnAWijOBQweOJnQPl068Oqd4K3OFbTc6AHJwzweUwwWG3GIFY74OKks2PJUDkQPeddOQES9mLn1CTEQ==}
+  /@types/node@20.11.27:
+    resolution: {integrity: sha512-qyUZfMnCg1KEz57r7pzFtSGt49f6RPkPBis3Vo4PbS7roQEDn22hiHzl/Lo1q4i4hDEgBJmBF/NTNg2XR0HbFg==}
     dependencies:
       undici-types: 5.26.5
     dev: false
@@ -877,7 +877,7 @@ packages:
     dependencies:
       '@rc-component/color-picker': 1.5.2(react-dom@18.2.0)(react@18.2.0)
       '@rc-component/trigger': 1.18.3(react-dom@18.2.0)(react@18.2.0)
-      '@univerjs/icons': 0.1.40(react-dom@18.2.0)(react@18.2.0)
+      '@univerjs/icons': 0.1.41(react-dom@18.2.0)(react@18.2.0)
       clsx: 2.1.0
       dayjs: 1.11.10
       rc-dialog: 9.4.0(react-dom@18.2.0)(react@18.2.0)
@@ -998,8 +998,8 @@ packages:
       '@wendellhu/redi': 0.13.0
     dev: false
 
-  /@univerjs/icons@0.1.40(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-XsMlxOmTYAyV3H2RHZTJieLRTkO76/X/QgcjL9n0XrWOuIyCkGAOsyTIMtqOMOvQdd0TwYqX8ZBPwxwNvhLqrw==}
+  /@univerjs/icons@0.1.41(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-dis8kFEcahXVZGrCu9A70N6kqpt64q8bZy55Cs6k43g9nJcZkodU875uaF2JyMgVe7gIKUd+aCpHVru0SXrXQA==}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -1054,7 +1054,7 @@ packages:
       '@univerjs/docs': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@univerjs/engine-render@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@univerjs/engine-formula': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@univerjs/engine-render': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.40(react-dom@18.2.0)(react@18.2.0)
+      '@univerjs/icons': 0.1.41(react-dom@18.2.0)(react@18.2.0)
       '@univerjs/sheets': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@univerjs/engine-formula@0.1.2-nightly.202403101606)(@univerjs/engine-render@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@univerjs/sheets-numfmt': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@univerjs/design@0.1.2-nightly.202403101606)(@univerjs/engine-formula@0.1.2-nightly.202403101606)(@univerjs/engine-numfmt@0.1.2-nightly.202403101606)(@univerjs/engine-render@0.1.2-nightly.202403101606)(@univerjs/sheets-ui@0.1.2-nightly.202403101606)(@univerjs/sheets@0.1.2-nightly.202403101606)(@univerjs/ui@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
       '@univerjs/sheets-ui': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@univerjs/design@0.1.2-nightly.202403101606)(@univerjs/docs@0.1.2-nightly.202403101606)(@univerjs/engine-formula@0.1.2-nightly.202403101606)(@univerjs/engine-numfmt@0.1.2-nightly.202403101606)(@univerjs/engine-render@0.1.2-nightly.202403101606)(@univerjs/sheets@0.1.2-nightly.202403101606)(@univerjs/ui@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
@@ -1087,7 +1087,7 @@ packages:
       '@univerjs/engine-formula': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@univerjs/engine-numfmt': 0.1.2-nightly.202403101606
       '@univerjs/engine-render': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.40(react-dom@18.2.0)(react@18.2.0)
+      '@univerjs/icons': 0.1.41(react-dom@18.2.0)(react@18.2.0)
       '@univerjs/sheets': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@univerjs/engine-formula@0.1.2-nightly.202403101606)(@univerjs/engine-render@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@univerjs/sheets-ui': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@univerjs/design@0.1.2-nightly.202403101606)(@univerjs/docs@0.1.2-nightly.202403101606)(@univerjs/engine-formula@0.1.2-nightly.202403101606)(@univerjs/engine-numfmt@0.1.2-nightly.202403101606)(@univerjs/engine-render@0.1.2-nightly.202403101606)(@univerjs/sheets@0.1.2-nightly.202403101606)(@univerjs/ui@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)
       '@univerjs/ui': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@univerjs/design@0.1.2-nightly.202403101606)(@univerjs/engine-formula@0.1.2-nightly.202403101606)(@univerjs/engine-render@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)(vue@3.4.21)
@@ -1121,7 +1121,7 @@ packages:
       '@univerjs/engine-formula': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@univerjs/engine-numfmt': 0.1.2-nightly.202403101606
       '@univerjs/engine-render': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.40(react-dom@18.2.0)(react@18.2.0)
+      '@univerjs/icons': 0.1.41(react-dom@18.2.0)(react@18.2.0)
       '@univerjs/sheets': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@univerjs/engine-formula@0.1.2-nightly.202403101606)(@univerjs/engine-render@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@univerjs/ui': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@univerjs/design@0.1.2-nightly.202403101606)(@univerjs/engine-formula@0.1.2-nightly.202403101606)(@univerjs/engine-render@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)(rxjs@7.8.1)(vue@3.4.21)
       '@wendellhu/redi': 0.13.0
@@ -1168,7 +1168,7 @@ packages:
       '@univerjs/design': 0.1.2-nightly.202403101606(clsx@2.1.0)(react-dom@18.2.0)(react@18.2.0)
       '@univerjs/engine-formula': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
       '@univerjs/engine-render': 0.1.2-nightly.202403101606(@univerjs/core@0.1.2-nightly.202403101606)(@wendellhu/redi@0.13.0)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.40(react-dom@18.2.0)(react@18.2.0)
+      '@univerjs/icons': 0.1.41(react-dom@18.2.0)(react@18.2.0)
       '@wendellhu/redi': 0.13.0
       clsx: 2.1.0
       localforage: 1.10.0
@@ -1633,7 +1633,7 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 20.11.26
+      '@types/node': 20.11.27
       long: 5.2.3
     dev: false
 
