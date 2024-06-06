@@ -5,7 +5,7 @@ import "@univerjs/sheets-ui/lib/index.css";
 import "@univerjs/sheets-formula/lib/index.css";
 import "@univerjs/sheets-numfmt/lib/index.css";
 
-import { LocaleType, LogLevel, Univer } from "@univerjs/core";
+import { LocaleType, Univer } from "@univerjs/core";
 import { defaultTheme } from "@univerjs/design";
 import { UniverDocsPlugin } from "@univerjs/docs";
 import { UniverDocsUIPlugin } from "@univerjs/docs-ui";
@@ -17,6 +17,7 @@ import { UniverSheetsNumfmtPlugin } from "@univerjs/sheets-numfmt";
 import { UniverSheetsUIPlugin } from "@univerjs/sheets-ui";
 import { UniverUIPlugin } from "@univerjs/ui";
 import { FUniver } from '@univerjs/facade';
+import { zhCN, enUS } from 'univer:locales'
 import { RowHeaderCustomExtension } from "./row-header-extension";
 import { ColumnHeaderCustomExtension } from "./column-header-extension";
 import { MainCustomExtension } from "./main-extension";
@@ -24,8 +25,11 @@ import { MainCustomExtension } from "./main-extension";
 // univer
 const univer = new Univer({
   theme: defaultTheme,
-  locale: LocaleType.ZH_CN,
-  logLevel: LogLevel.VERBOSE,
+  locale: LocaleType.EN_US,
+  locales: {
+    [LocaleType.ZH_CN]: zhCN,
+    [LocaleType.EN_US]: enUS,
+  },
 });
 
 // core plugins
@@ -54,7 +58,10 @@ univer.createUniverSheet({id:unitId});
 
 const univerAPI = FUniver.newAPI(univer);
 
-univerAPI.registerSheetRowHeaderExtension(unitId, new RowHeaderCustomExtension());
-univerAPI.registerSheetColumnHeaderExtension(unitId, new ColumnHeaderCustomExtension());
-univerAPI.registerSheetMainExtension(unitId, new MainCustomExtension());
+// register custom extension
+univerAPI.getHooks().onRendered(() => {
+  univerAPI.registerSheetRowHeaderExtension(unitId, new RowHeaderCustomExtension());
+  univerAPI.registerSheetColumnHeaderExtension(unitId, new ColumnHeaderCustomExtension());
+  univerAPI.registerSheetMainExtension(unitId, new MainCustomExtension());
+})
 
