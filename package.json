@@ -8,25 +8,25 @@
     "build": "tsc && vite build"
   },
   "dependencies": {
-    "@univerjs/core": "^0.1.13",
-    "@univerjs/design": "^0.1.13",
-    "@univerjs/docs": "^0.1.13",
-    "@univerjs/docs-ui": "^0.1.13",
-    "@univerjs/engine-formula": "^0.1.13",
-    "@univerjs/engine-numfmt": "^0.1.13",
-    "@univerjs/engine-render": "^0.1.13",
-    "@univerjs/facade": "^0.1.13",
-    "@univerjs/sheets": "^0.1.13",
-    "@univerjs/sheets-formula": "^0.1.13",
-    "@univerjs/sheets-numfmt": "^0.1.13",
-    "@univerjs/sheets-ui": "^0.1.13",
-    "@univerjs/ui": "^0.1.13",
-    "@wendellhu/redi": "0.15.2"
+    "@univerjs/core": "0.2.1",
+    "@univerjs/design": "0.2.1",
+    "@univerjs/docs": "0.2.1",
+    "@univerjs/docs-ui": "0.2.1",
+    "@univerjs/engine-formula": "0.2.1",
+    "@univerjs/engine-numfmt": "0.2.1",
+    "@univerjs/engine-render": "0.2.1",
+    "@univerjs/facade": "0.2.1",
+    "@univerjs/sheets": "0.2.1",
+    "@univerjs/sheets-formula": "0.2.1",
+    "@univerjs/sheets-numfmt": "0.2.1",
+    "@univerjs/sheets-ui": "0.2.1",
+    "@univerjs/ui": "0.2.1",
+    "@wendellhu/redi": "0.15.5"
   },
   "devDependencies": {
-    "@univerjs/vite-plugin": "^0.4.3",
-    "@vitejs/plugin-react": "^4.3.0",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.12"
+    "@univerjs/vite-plugin": "^0.4.4",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
   }
 }

@@ -22,6 +22,11 @@ export class MainCustomExtension extends SheetExtension {
             return;
         }
 
+        // Only displayed on the specified sheet
+        if(spreadsheetSkeleton.worksheet?.getSheetId() !== 'sheet-01'){
+            return;
+        }
+
         const { rowHeightAccumulation, columnTotalWidth, columnWidthAccumulation, rowTotalHeight } =
             spreadsheetSkeleton;
 

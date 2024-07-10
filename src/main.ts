@@ -54,7 +54,12 @@ univer.registerPlugin(UniverSheetsFormulaPlugin);
 
 const unitId = 'workbook'
 // create univer sheet instance
-univer.createUniverSheet({id:unitId});
+univer.createUniverSheet({id:unitId,sheets:{
+  'sheet-01':{
+    id:'sheet-01',
+    name:'Sheet01'
+  }
+}});
 
 const univerAPI = FUniver.newAPI(univer);
 
